@@ -55,9 +55,9 @@ https://web.archive.org/
 # Webserver Fingerprinting:
 
 ## Netcat:
-sudo nc example.com 08
+sudo nc instagram.com 443
 GET / HTTP/1.1
-Host: example.com
+Host: instagram.com
 
 <img width="631" height="86" alt="Screenshot From 2026-01-30 09-44-57" src="https://github.com/user-attachments/assets/2235fb00-1487-4d29-b0fb-b80fb532a4d1" />
 
@@ -78,19 +78,19 @@ Host: example.com
 
 # Tracing the Location
 TCP Traceroute:
-sudo traceroute -T www.google.com
+sudo traceroute -T instagram.com
 ## output
 
 <img width="776" height="105" alt="Screenshot From 2026-01-30 09-45-59" src="https://github.com/user-attachments/assets/6c3218aa-f976-4b9f-af0b-de536c150154" />
 
 ## UDP Traceroute:
-sudo traceroute -U www.google.com
+sudo traceroute -U instagram.com
 ## output
 
 <img width="607" height="192" alt="Screenshot From 2026-01-30 09-46-13" src="https://github.com/user-attachments/assets/2e3111f9-5664-4863-bc79-8092aaf101e9" />
 
 ## ICMP Traceroute:
-sudo traceroute  www.google.com
+sudo traceroute instagram.com
 ## output
 
 <img width="607" height="192" alt="Screenshot From 2026-01-30 09-46-20" src="https://github.com/user-attachments/assets/b647cd01-45a8-47cc-95b1-d3b387885ac3" />
