@@ -2,7 +2,8 @@
 Information Gathering Techiques
 
 # To perform information gathering techniques
-
+# Name : Senthil Raj G
+# Register No : 212224100054
 # AIM:
 
 To perform information gathering techniques using kali linux 
@@ -28,23 +29,27 @@ Footprinting is a part of the reconnaissance process which is used for gathering
 http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
 
 ## OUTPUT:
+<img width="1919" height="1149" alt="Screenshot 2026-01-30 092508" src="https://github.com/user-attachments/assets/23d9b6ac-b2bb-4270-99f4-1a82dee7695f" />
 
 
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
 ##output
 
+<img width="745" height="301" alt="image" src="https://github.com/user-attachments/assets/7501956e-c70b-45d7-9554-90e5a64fcea5" />
 
 
 ## Finding Hosting Company
 get further detail by using ip2location.com website.
 ##output
+<img width="1918" height="1151" alt="image" src="https://github.com/user-attachments/assets/c157c462-40aa-4d83-922c-063d3288a64c" />
 
 
 
 ## History of the website:
 ## output
 https://web.archive.org/
+<img width="1919" height="1150" alt="Screenshot 2026-01-30 095154" src="https://github.com/user-attachments/assets/00262445-2f6c-4e0f-9fdd-f535f300f4f0" />
 
 
 # Webserver Fingerprinting:
@@ -52,7 +57,7 @@ https://web.archive.org/
 ## Netcat:
 sudo nc example.com 80
 GET / HTTP/1.1
-Host: example.com
+Host: instagram.com
 
 
 
